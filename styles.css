@@ -38,6 +38,16 @@ body {
   
 }
 
+.section-div {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section-title {
+  color: black;
+  font-size: 2em;
+}
+
 #about {
   height: 100vh;
   background: none;
@@ -68,12 +78,13 @@ body {
 }
 
 .feature-icon {
-  font-size: 2em;
+  font-size: 2.5em !important;
+  color: black;
   padding-bottom: 7%;
 }
 
 #sign-up {
-  background: white;
+  background: lightgray;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,8 +108,9 @@ body {
 }
 
 .price-box {
-    width: 100%;
-    border: 1px solid green;
+    border: 1px solid black;
     padding: 25px;
-    margin: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px !important;
 }
